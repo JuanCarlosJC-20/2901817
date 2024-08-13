@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edades</title>
+</head>
+<body>
+    <script>
+        let añonacimientoUno;
+        let añonacimientoDos;
+        let añonacimientoTres;
+        let edadUno;
+        let edadDos;
+        let edadTres;
+        const añoactualUno= 2024;
+        const añoactualDos= 2024;
+        const añoactualTres= 2024;
+        let promedio;
+
+        añonacimientoUno=prompt("ingrese año nacimiento");
+        añonacimientoDos=prompt("ingrese año nacimiento");
+        añonacimientoTres=prompt("ingrese año nacimiento");
+
+        edadUno=añoactualUno - añonacimientoUno;
+        edadDos=añoactualDos - añonacimientoDos;
+        edadTres=añoactualTres - añonacimientoTres;
+         promedio=(edadUno + edadDos + edadTres) / 3;
+        
+         if(edadUno >= 18){
+            console.log(" es mayor edad");
+         }
+         else{
+            console.log("no es mayor de edad");
+         }
+         if(edadDos >= 18){
+            console.log("es mayor de edad");
+         }
+         else{
+            console.log("no es mayor");
+
+         }
+         if(edadTres >= 18){
+            console.log("es mayor edad");
+         }
+         else{
+            console.log("no es mayor de edad");
+         }
+         console.log("edadUno: "+edadUno+"\n");
+         console.log("edadDos: "+edadDos+"\n");
+         console.log("edadTres: "+edadDos+"\n");
+         console.log("promedio: "+promedio+"\n");
+
+    </script>
+    
+</body>
+</html>

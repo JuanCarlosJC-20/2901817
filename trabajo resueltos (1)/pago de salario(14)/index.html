@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pago salario</title>
+</head>
+<body>
+    <script>
+        let salario;
+        let salud;
+        let pension;
+        let arl;
+        let subsidiotrasporte;
+        let salarioMinimo;
+        let totalApagar;
+        let sueldo;
+        let retencion;
+        let debutible;
+        
+        salario = 1300000;
+        salud = salario*0.12;
+        pension = salario*0.16;
+        arl = salario*0.16;
+        
+
+        if(sueldo*2>salario){
+            console.log("no subsidio de trasporte")
+        }
+
+        
+        else{
+            if(sueldo>4*salario){
+                console.log("si tiene retencion de 0,04 de salario");
+
+            }
+        }
+            salario-0.04
+            
+            debutible=parseInt(salud) + parseInt(pension) + parseInt(arl);
+            totalApagar=parseInt(salario) + parseInt(subsidiotrasporte) - parseInt(debutible) + parseInt(retencion);
+            console.log("total a pagar : "+pension+"$");       
+    
+        
+    
+    </script>
+    
+</body>
+</html>

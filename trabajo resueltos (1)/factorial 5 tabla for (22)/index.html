@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>factorail 5</title>
+</head>
+<body>
+    <script>
+         
+        function calcularFactorial(n) {
+            let factorial = 1;
+            for (let i = 1; i <= n; i++) {
+                factorial *= i;
+            }
+            return factorial;
+        }
+        
+        const factorialDe5 = calcularFactorial(5);
+        
+        console.log(`El factorial de 5 es ${factorialDe5}`);
+        
+            </script>
+</body>
+</html>

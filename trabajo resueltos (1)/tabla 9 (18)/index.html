@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabla 9</title>
+</head>
+<body>
+    <script>
+        let tabla;
+        let contador;
+        let multi;
+        let par;
+        let impar;
+
+        par=0;
+        impar=0;
+        contador=0;
+        multi=1 
+        numero=5; 
+        tabla=prompt("Que multiplicacion quieres hacer hasta el 5")
+
+        while(contador<numero){
+             contador++;
+             multi=contador*tabla;
+             console.log(tabla + "x" + contador + "=" + multi)
+             if((multi%2)==0) {
+                  console.log(multi +"es par")
+                par++;
+             }
+
+            else{
+             console.log( multi+ "es impar")
+             impar++ 
+        
+            }
+     
+            console.log("hay "+ par +" numeros pares")
+            console.log("hay "+ impar +" numeros impares")
+        }
+           
+    </script>
+    
+</body>
+</html>

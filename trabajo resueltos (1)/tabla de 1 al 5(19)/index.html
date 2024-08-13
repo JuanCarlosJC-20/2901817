@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabla 1 al 5</title>
+</head>
+<body>
+    <script>
+        let tabla;
+      let multi;
+      let resul;
+      let par= 0;
+      let impar= 0;
+
+    tabla=0; 
+    while(tabla < 5) {          tabla++
+        multi=0;
+        while(multi < 5 ) { 
+              multi++;
+              resul= tabla* multi;
+            console.log(tabla + "x" + multi + "=" +resul); 
+            if (resul % 2 === 0){
+              console.log (resul+ "buzz");
+              par++;
+            } else{
+              console.log(resul + "bass");
+            impar++;
+            }
+
+        }
+
+    }
+    console.log("Hay" + impart + "impares")
+    console.log("Hay" + impart + "pares")
+    </script>
+    
+</body>
+</html>

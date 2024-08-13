@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eades,promedio,resultado</title>
+</head>
+<body>
+    <script>
+        let edadUno;
+        let edadDos;
+        let edadTres;
+        let yearNow1;
+        let yearNow2;
+        let yearNow3;
+        let yearbegin1;
+        let yearbegin2;
+        let yearbegin3;
+        let promedio;
+        let resta;
+        let suma;
+        yearNow1 =prompt("ingrese año actual");
+        yearbegin1 =prompt("ingrese año nacimiento");
+        yearNow2 =prompt("ingrese año actual dos");
+        yearbegin2 =prompt("ingrese año nacimiento dos");
+        yearNow3 =prompt("ingrese año actual tres");
+        yearbegin3 =prompt("ingrese año nacimiento tres");
+        
+        edadUno=yearNow1 - yearbegin1;
+        edadDos=yearNow2 - yearbegin2;
+        edadTres=yearNow3 - yearbegin3;
+        promedio=(edadUno + edadDos + edadTres)/3
+
+        console.log("promedio: "+promedio+"\n");
+        console.log("edaduno: "+edadUno+"\n");
+        console.log("edadDos: "+edadDos+"\n");
+        console.log("edadTres: "+edadTres+"\n");
+
+    </script>
+    
+</body>
+</html>
